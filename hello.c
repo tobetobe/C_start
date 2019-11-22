@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	int age = 10;
-	int height = 72;
-	
-	printf("I am %d years old.\n", age);
-	printf("I am %d cm heigh.\n", height);
+	char str_null = "";
+	char str1[] = "lyw";
+	char str2[] = {
+		'G', 'O', 'O', 'D'
+	};
 
+	printf("%ld %ld %ld\n", sizeof(str_null), sizeof(str1), sizeof(str2));
 	return 0;
 }
 
